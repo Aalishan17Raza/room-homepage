@@ -56,7 +56,7 @@ leftAngleBtn.addEventListener('click', (e) => {
 })
 
 if (screen.width < 376) {
-    iconAngles.style.left = (screen.width - parseInt(iconAnglesStyle.width) -23) +"px" ;
+    iconAngles.style.left = (screen.width - parseInt(iconAnglesStyle.width)) +"px" ;
     iconAngles.style.top = (parseInt(bgImgStyles.height)
         - parseInt(iconAnglesStyle.height)) + "px";
 
